@@ -2,13 +2,15 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 10%
+    right: 90%
+    width: 15%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 51%
-    right: 30%
+    right: 100%
+    width: 30%
 
 @keyframes float1
   0%
@@ -16,11 +18,34 @@
   100%
     transform: translateY(0px)
   
-
+.banner-principal
+  @media (max-width: $bp-max-md)
+    .tarjeta
+      background-image: url('../assets/curso/portada/fondo-banner-principal-movil.jpg') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+    &__info
+      padding-top: 14% !important 
+    h1, p
+      color: $white
+.banner-interno__fondo    
+  background-image: url("../assets/curso/portada/portada.jpg") !important
+.banner-principal  
+  @media (min-width: 768px) and (max-width: 1024px)
+    .tarjeta
+      background-image: url('../assets/curso/portada/fondo-banner-principal-tablet.jpg') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+    &__info
+      padding-top: 8% !important 
+    h1, p
+      color: $white
 .banner-principal .tarjeta
   background-position: left 50% !important
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
+  width: 350px !important  
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white !important   
 .banner-interno__titulo__icono i
@@ -28,3 +53,404 @@
 figcaption
   font-weight: normal
  
+.titulo-sexto.color-secundario 
+  border-left-color: #3AE3FE !important
+
+.titulo-segundo:after 
+  content: ''
+  display: block
+  height: 5px
+  width: 140px
+  border-left: solid 50px
+  border-left-color: #FF725D
+  background-color: #e8e8e8
+
+.titulo-nuevo
+    margin-bottom: 24px;
+    border-left: 7px solid;
+    padding: 0px 0 0px 15px;
+    border-left-color: #53BCED !important
+
+.banner-interno__titulo h2
+    color: black  !important
+
+.banner-interno__titulo__icono i
+    color: black  !important
+
+
+// subtitulos
+
+.icon 
+  max-width: 35px
+  left: 65px
+  position: absolute
+
+.bg-img-blue
+  padding: 14px
+  background-color: #0D66BF
+  border-radius: 0px 0px 50px 0px
+
+// tamaños imagenes
+
+.img1
+  width: 95px
+
+// textos
+
+.textoazul
+  color:  #0D66BF
+
+.textonaranja
+  color:  #FF725D 
+
+// fondos y bordes
+
+.fondocontenedor
+  background: url('../assets/curso/temas/tema2/fondo1.png')
+  background-size: 101%
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem
+
+.fondocontenedor1
+  background: url('../assets/curso/temas/tema2/fondo3.png')
+  background-size: 101%
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem
+
+.bordeazulredondo
+  border-radius: 25px
+  border: 3px solid #53BCED
+
+.bordenaranjaredondo
+  border-radius: 30px
+  border: 4px solid #FF725D 
+
+.borde-redondo
+  border-radius: 25px
+
+.borde-recto
+  border-radius: 0px
+
+.borde-redondo-abajo
+  border-bottom-left-radius: 20px
+  border-bottom-right-radius: 20px
+
+.borde-redondo-arriba
+  border-top-left-radius: 20px
+  border-top-right-radius: 20px
+
+.cajon.color-acento-contenido
+  background-color: #ffd4ce
+
+.cajon.color-primario
+  background-color: #d4eefb
+
+.cajon.color-acento-botones
+  background-color:#F2ECD0
+
+.bgazul
+  background-color: #0D66BF
+
+.bgazulclaro
+  background-color: #d4eefb
+
+.bgrosado  
+  background-color:#ffd4ce
+
+.bgblanco
+  background-color: white
+  
+// Slyder F boton tema1
+
+.fa-chevron-right:before 
+    content: url('../assets/curso/temas/tema1/der.svg')
+
+.fa-chevron-left:before 
+    content: url('../assets/curso/temas/tema1/izq.svg')
+
+// slyder tema 1
+
+.fondo1
+  background: url('../assets/curso/temas/fondo1.jpg')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center 
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem
+
+.fondo2
+  background: url('../assets/curso/temas/fondo1.jpg')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center 
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem
+
+.tarjeta.tarjeta--slyder
+  background-repeat: no-repeat
+  background-position: center 
+
+
+.tarjetaf
+  background-color: #fff
+  border-radius: 15px
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+  width: 50px
+  height: 50px
+  background-color: #FFDC39
+  border-radius: 50%
+  color: #0D66BF
+
+.slyder-a__bullets__item
+    background-color: #D2E1F1
+    border-color: #D2E1F1
+
+.slyder-a__bullets__item--active 
+    background-color: #0D66BF
+    border-color: #727997
+    opacity: 1
+
+// para que los botones no se estiren en mobile
+
+.slyder-a__bullets__item--active 
+
+@media (max-width: 768px) 
+    .slyder-a__bullets__item 
+        width: 11px
+        height: 11px
+        margin: 0px 0.5px
+
+@media (max-width: 768px)  
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    width: 30px
+    height: 30px
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+    width: 50px
+    height: 50px
+    background-color: #FFD947
+    border-radius: 50%
+    background-repeat: no-repeat
+    background-size: 16px 24px
+    background-position: center
+    border: 1px solid #D8ECFF
+    z-index: 10000
+    opacity: 0.7
+    box-shadow: 0 0 0px 0px rgba(0, 0, 0, 0.3)
+    transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
+    cursor: pointer
+
+// acordeon tipo A tema 1
+
+.fa-plus:before 
+    content: "\f067"
+    color: #0D66BF
+
+.fa-minus:before 
+    content: "\f068"
+    color: #0D66BF
+
+.acordion__accion__btn--a
+  background-color: #FFDC39
+  box-shadow: 0px 0px 7px 2px rgba(0,0,0,.3)
+.acordion .tarjeta--azul
+  background-color: #FF725D
+
+.acordion .tarjeta.tarjeta--azul.acordion__activo
+  background-color: #FFE3DE
+
+//viñetas
+  
+.fa-ol
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 20px
+      font-size: 1.4rem
+
+.fa-ul
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 20px
+      font-size: 1.4rem
+
+
+.lista-ol--cuadro__vineta 
+  background-color: #53BCED !important
+  color: black !important
+
+.lista-ol--cuadro__vineta.acento-contenido 
+  background-color: #FF725D !important
+
+.lista-ul--color.color-secundario li > i:first-of-type 
+    color: #0D66BF
+
+// tarjetas botones tema 1
+
+.tarjeta--boton.tema1
+  background-color: #d4eefb
+  border-radius: 10px
+
+.tarjeta--boton.tema1:active, .tarjeta--boton.tema1:focus, .tarjeta--boton.tema1:hover 
+  background-color: #ffd4ce
+
+.tarjeta-avatar
+    padding-top: 35px
+
+// tajeta avatar con numero 1 y 2 tema 1
+
+.tarjeta-avatar-b__img.nueva
+  min-width: 8% !important
+
+.tarjeta-avatar-b.correr .tarjeta
+    margin-left: -3% !important
+    padding-left: 3% !important
+
+// tarjeta avartar con A Y B tema 2
+
+.tarjeta-avatar-b__img.nueva2
+  min-width: 8% !important
+
+.tarjeta-avatar-b.correr2 .tarjeta
+    margin-left: -3% !important
+    padding-left: 3% !important
+
+
+
+// tab C tema 1
+
+.tabs-c.color-primario .tabs-c__tab--active 
+  border-bottom-color: #FF725D !important
+  font-weight: 900
+
+.tabs-c.color-primario .tabs-c__tab--active:before 
+  border-top-color: #FF725D
+
+.tabs-c__tab
+  border-bottom: 4px solid #53BCED !important
+
+.tabs-c__header 
+  margin-bottom: 0px !important
+
+.tabs-c
+  border-bottom: 3px solid #D0D6D9
+
+.tabs-c__tab:after 
+    width: 4px
+    height: 36px
+    top: 50%
+    right: -2px
+    background-color: #53bced
+
+// tab A tema 2
+
+.tabs-a__tab
+  background-color: #FF725D
+
+// linea de tiempo tema 2
+
+.tarjeta--rosada
+    background-color:  #ffd4ce
+
+.linea-tiempo-c__header__btn--right, .linea-tiempo-c__header__btn--left
+    background-color:  #FFD947
+
+// puntos calientes 
+
+.img-infografica__item__dot:before, .img-infografica__item__dot:after, .img-infografica-b__item__dot:before, .img-infografica-b__item__dot:after 
+  border-radius: 0
+  border-top-left-radius: 25%
+  border-top-right-radius: 25%
+
+// acordion tema 2
+
+.acordion.activo 
+.acordion__activo .acordion__accion__btn--b
+    background-color: #FFE3DE
+
+.acordion__accion__btn--b 
+    border: 1px solid #afafaf
+
+.acordion 
+    .acordion__activo
+      background: url('../assets/curso/temas/tema2/fondo2.png')
+      background-size: 100% 100%
+      background-repeat: no-repeat
+      background-position: center 
+      border-radius: 20px !important
+    .tarjeta--azull
+      background-color: #FFE3DE
+      border-bottom: 0.5px solid #D3D3D3 !important
+      border-radius: 0px
+
+///////// Card hover tema2
+
+.crd_hover_txt
+  position: relative
+  padding: 0 !important
+  overflow: hidden !important
+  border-radius: 10px
+.crd_hover_txt .crd_hover_txt--body
+  position: absolute
+  padding: 1.5rem
+  width: 100%
+  bottom: 0
+  transition: all .5s ease-in-out
+  transform: translateY(calc(100% - 3.85rem))
+
+.crd_hover_txt:hover .crd_hover_txt--body
+  transition: all .5s ease-in-out
+  transform: translateY(0)
+  background-color: #0D66BF !important
+.crd_hover_txt:hover .crd_hover_txt--body *
+  color: #fff !important
+
+.cambio
+  background-color: #FF725D
+
+//linea de tiempo D tema 3
+
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title 
+    background-color: #FFE3DE
+.linea-tiempo-d__item__content__slot 
+    background-color: #FFE3DE
+
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item__content 
+    background-color:  #d4eefb
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item__number 
+    background-color:  #d4eefb
+    color: black !important
+
+.linea-tiempo-d__item__dots:after 
+  content: ''
+  display: block
+  width: 0
+  height: 100%
+  border-left: 5px dotted #0D66BF !important
+
+// infografia tema 3
+
+.tarjeta.white-card
+  background-color:  #FFD947 !important
+
+.img-infografica-b__modal__contenido div > * 
+    color: black !important
+
+// minuscula // pasos
+
+.pasos-a.color-acento-contenido .pasos-a__circle div 
+    text-transform: lowercase  !important
