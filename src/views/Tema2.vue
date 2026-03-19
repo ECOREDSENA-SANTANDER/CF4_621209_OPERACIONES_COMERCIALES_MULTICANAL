@@ -28,8 +28,7 @@
         p Por ejemplo, cuando se compra una pastilla para el dolor muscular, se busca en la farmacia más cercana y a la hora de hacer la compra se requiere de un servicio de atención, facturación y servicio de entrega del producto. 
             
       .row
-       .cajon.color-primario.p-4
-          p Por su lado, la naturaleza del servicio es intangible, pero, en cuanto a su funcionamiento, necesita de su parte tangible. Por ejemplo, un hotel brinda el servicio de hospedaje, pero, para poder proporcionar este servicio, necesita de infraestructura física, inmobiliario y equipamiento. 
+        p Por su lado, la naturaleza del servicio es intangible, pero, en cuanto a su funcionamiento, necesita de su parte tangible. Por ejemplo, un hotel brinda el servicio de hospedaje, pero, para poder proporcionar este servicio, necesita de infraestructura física, inmobiliario y equipamiento. 
   
       separador
       #t_2_1.titulo-segundo.mb-5
@@ -92,7 +91,7 @@
   
       .row.justify-content-center(data-aos="fade-down") 
         .col-sm-6.col-xl-4.mb-4.mb-xl-0
-          .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta.tarjeta-slide.arriba.bg04(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
               .tarjeta-slide__contenido.p-4.p-xl-5
@@ -103,7 +102,7 @@
                 p.text-center Son los productos que suministran mayores beneficios a la marca; por lo general tienen mayor rotación de ventas o mayor rentabilidad.
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/tar1-1.png')})`}")
         .col-sm-6.col-xl-4.mb-4.mb-xl-0
-          .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta.tarjeta-slide.arriba.bg04(@mouseover="indicadorTarjetaSlide = false")
             .tarjeta-slide__contenedor
               .tarjeta-slide__contenido.p-4.p-xl-5
                 .row.justify-content-center.align-items-center
@@ -113,7 +112,7 @@
                 p.text-center Se refiere a los productos que estimulan el interés y motivan a conseguir más información, y concluyen con la compra del artículo sin importar el precio. 
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/tar1-2.png')})`}")
         .col-sm-6.col-xl-4.mb-4.mb-xl-0
-          .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta.tarjeta-slide.arriba.bg04(@mouseover="indicadorTarjetaSlide = false")
             .tarjeta-slide__contenedor
               .tarjeta-slide__contenido.p-4.p-xl-5
                 .row.justify-content-center.align-items-center
@@ -137,29 +136,29 @@
         .col-lg-4.col-md-6.col-6
           img(src='@/assets/curso/temas/tema2/img2.png', alt='')
         .col-lg-8.col-md-12.col-sm-12
-          .bgazulclaro.borde-redondo.p-4
+          .bg01.borde-redondo.p-4
             SlyderF(columnas="col-lg-12 col-md-12 col-12")
-              .tarjeta.tarjeta--slyder.p-3
+              .tarjeta.tarjeta--slyder
                 .row.justify-content-center.align-items-center(titulo="xxx")
                   .col-md-4.mb-4.mb-md-0
                     img(src='@/assets/curso/temas/tema2/sly2-1.png', alt='Texto que describa la imagen')
                   .col-md-8
                     h4.mb-4 Generadores de utilidades.
-                    p.mb-4 Se refiere a aquellos que se cobran y que el cliente está dispuesto a pagar. Por ejemplo, marcas funerarias, de seguros, de diversiones, financieras, de servicios médicos, entre otros. 
-              .tarjeta.tarjeta--slyder.p-3
+                    p Se refiere a aquellos que se cobran y que el cliente está dispuesto a pagar. Por ejemplo, marcas funerarias, de seguros, de diversiones, financieras, de servicios médicos, entre otros. 
+              .tarjeta.tarjeta--slyder
                 .row.justify-content-center.align-items-center(titulo="xxx")
                   .col-md-4.mb-4.mb-md-0
                     img(src='@/assets/curso/temas/tema2/sly2-2.png', alt='Texto que describa la imagen')
                   .col-md-8
                     h4.mb-4 Mixtos.
-                    p.mb-4 Es cuando el producto necesita del componente de servicio, sin importar si es en un grado mayor o menor. Como ejemplo se pueden citar los restaurantes, porque el producto va a variar de precio de acuerdo con la calidad de los servicios y atención prestada (música de fondo o en vivo, espacios amplios y cómodos, zonas de juegos para los niños, entre otros).
+                    p Es cuando el producto necesita del componente de servicio, sin importar si es en un grado mayor o menor. Como ejemplo se pueden citar los restaurantes, porque el producto va a variar de precio de acuerdo con la calidad de los servicios y atención prestada (música de fondo o en vivo, espacios amplios y cómodos, zonas de juegos para los niños, entre otros).
               .tarjeta.tarjeta--slyder.p-3
                 .row.justify-content-center.align-items-center(titulo="xxx")
                   .col-md-4.mb-4.mb-md-0
                     img(src='@/assets/curso/temas/tema2/sly2-3.png', alt='Texto que describa la imagen')
                   .col-md-8
                     h4.mb-4 Servicios de apoyo.
-                    p.mb-4 Son servicios adicionales que ayudan a vender un producto al proporcionar apoyo extra, como el servicio  de entrega a domicilio, atención clara, oportuna, entre otros. Estos servicios están diseñados para motivar al cliente a realizar una compra. Por ejemplo, en la venta de camionetas 4 x 4, se puede ofrecer a los clientes y sus familias pases de cortesía para asistir a un evento durante el fin de semana, permitiéndoles experimentar el vehículo en un entorno real.
+                    p Son servicios adicionales que ayudan a vender un producto al proporcionar apoyo extra, como el servicio  de entrega a domicilio, atención clara, oportuna, entre otros. Estos servicios están diseñados para motivar al cliente a realizar una compra. Por ejemplo, en la venta de camionetas 4 x 4, se puede ofrecer a los clientes y sus familias pases de cortesía para asistir a un evento durante el fin de semana, permitiéndoles experimentar el vehículo en un entorno real.
               .tarjeta.tarjeta--slyder.p-3
                 .row.justify-content-center.align-items-center(titulo="xxx")
                   .col-md-4.mb-4.mb-md-0
@@ -173,7 +172,7 @@
                     img(src='@/assets/curso/temas/tema2/sly2-4.png', alt='Texto que describa la imagen')
                   .col-md-8
                     h4.mb-4 Servicio de crédito.
-                    p.mb-4 En la actualidad es el más requerido por los clientes para productos que le resulten costosos. Puede ser por medio de tarjetas de crédito, cheques por fechados, cuentas corrientes, tarjetas débito, etc.
+                    p En la actualidad es el más requerido por los clientes para productos que le resulten costosos. Puede ser por medio de tarjetas de crédito, cheques por fechados, cuentas corrientes, tarjetas débito, etc.
   
       .mb-4.d-flex.ps-lg-0
         .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
@@ -296,7 +295,7 @@
           .tarjeta-avatar
             img.mt-2(src='@/assets/curso/temas/tema2/tar2-1.png' alt='')
             .row.justify-content-center.align-items-center.mt-5.mb-5.mx-1
-              .tarjeta--boton.tema1
+              .tarjeta--boton.bg05.text-white
                 .p-3
                   br
                   br
@@ -305,7 +304,7 @@
           .tarjeta-avatar
             img.mt-2(src='@/assets/curso/temas/tema2/tar2-2.png' alt='')
             .row.justify-content-center.align-items-center.mt-5.mb-5.mx-1
-              .tarjeta--boton.tema1
+              .tarjeta--boton.bg06.text-white
                 .p-3
                   br
                   br
@@ -421,7 +420,7 @@
   
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-12
-              ImagenInfografica.color-secundario
+              ImagenInfografica.color-acento-botones
                 template(v-slot:imagen)
                   figure
                     img(src='@/assets/curso/temas/tema2/fig2.png', alt='La imagen expone un diagrama circular del análisis PESTEL, que se utiliza para evaluar el entorno macroeconómico de una empresa. El diagrama está dividido en seis segmentos, cada uno representando una de las categorías del análisis: Político, Económico, Social, Tecnológico, Ecológico y Legal. Cada segmento está coloreado y etiquetado claramente para destacar su categoría correspondiente. En el centro del círculo, hay un ícono de edificios y una turbina eólica, simbolizando el entorno empresarial en su conjunto.', style='')
@@ -440,7 +439,7 @@
                 .tarjeta.p-4(x="26%" y="50%" numero="+" style='border-radius: 8px; background-color: #74D578')
                   h5 Ecológicos.
                   p.mb-0 Se refiere a estar al enterado de los posibles cambios normativos desde el contexto ecológico, y del nivel de conciencia social de este movimiento. La naturaleza siempre nos da enseñanzas importantes, más aún en la actualidad porque se ha comenzado a visualizar los resultados negativos por culpa de los abusos en los recursos naturales. Por eso, antes de lanzar un producto al mercado, se debe analizar si la materia prima para la producción y fabricación del producto afecta negativamente a la ecología.
-                .tarjeta.p-4(x="38%" y="16%" numero="+" style='border-radius: 8px; background-color: #F3AB1D')
+                .tarjeta.p-4(x="38%" y="16%" numero="+" style='border-radius: 8px; background-color: #FFDB26')
                   h5 Legales.
                   p.mb-0 Son los cambios en las normativas que estén relacionadas con el contexto empresarial, y que también puede influir de forma positiva o negativa. Las licencias, las leyes o normas sobre el empleo, leyes de seguridad y salud en el trabajo, leyes antimonopolios, el entorno legal en el país de origen de la empresa, derechos de propiedad intelectual, sectores protegidos o regulados, entre otros.
   
@@ -499,7 +498,7 @@
       p.mt-4.mb-4 Método en el que no hay una relación directa entre el cliente y el asesor de ventas. Se refiere a las ventas por correspondencia, ventas telefónicas, ventas electrónicas y ventas a través de la televisión. A continuación, se explicarán cada una de ellas:
   
       .row.mb-5
-        AcordionA.acordion.activo(tipo="b" clase-tarjeta="tarjeta tarjeta--azull")
+        AcordionA(tipo="b" clase-tarjeta="tarjeta bg07")
           .row.justify-content-center.align-items-center(titulo="Venta por correspondencia")
             .col-md-7
               p Se ejecuta a través de un catálogo que se envía por correo postal o se pone directamente en el buzón del cliente. Puede tener el formato de “inserto”, que es un anuncio pagado tipo volante o folleto que se ubica dentro de las páginas de las revistas o periódicos. 
@@ -547,7 +546,7 @@
                 img(src="@/assets/curso/temas/tema2/tar4-1.png", alt="alt")
             .crd_hover_txt--body.cambio
               h4.mb-3.text-center Venta directa
-              p.mb-0.text-center.text-white Cuando el cliente ingresa al establecimiento y es atendido de manera personalizada por el vendedor.
+              p.mb-0.text-center Cuando el cliente ingresa al establecimiento y es atendido de manera personalizada por el vendedor.
         .col-lg-4.col-md-6.col-12.mb-4.mb-xl-0
           .crd_hover_txt(data-aos="fade-left").borde-redondo
             .crd_hover_txt--img
@@ -555,7 +554,7 @@
                 img(src="@/assets/curso/temas/tema2/tar4-2.png", alt="alt")
             .crd_hover_txt--body.cambio
               h4.mb-3.text-center Venta en libre servicio
-              p.mb-0.text-center.text-white Cuando el cliente realiza una compra en una tienda de autoservicio, de un producto que ya ha elegido y evaluado previamente. Por lo general presenta la ventaja de tener precios más accesibles al consumidor.
+              p.mb-0.text-center Cuando el cliente realiza una compra en una tienda de autoservicio, de un producto que ya ha elegido y evaluado previamente. Por lo general presenta la ventaja de tener precios más accesibles al consumidor.
         .col-lg-4.col-md-6.col-12.mb-4.mb-xl-0
           .crd_hover_txt(data-aos="fade-left").borde-redondo
             .crd_hover_txt--img
@@ -563,7 +562,7 @@
                 img(src="@/assets/curso/temas/tema2/tar4-3.png", alt="alt")
             .crd_hover_txt--body.cambio
               h4.mb-3.text-center Venta en ferias, salones y exhibiciones
-              p.mb-0.text-center.text-white Cuando la empresa expone sus productos o servicios a clientes potenciales en lugares especiales como salones especiales o zonas amplias donde pueda existir un buen ambiente. La empresa puede usar un salón de un hotel, por ejemplo. 
+              p.mb-0.text-center Cuando la empresa expone sus productos o servicios a clientes potenciales en lugares especiales como salones especiales o zonas amplias donde pueda existir un buen ambiente. La empresa puede usar un salón de un hotel, por ejemplo. 
 
       .row
         .col-md-5
@@ -574,7 +573,7 @@
         .col-lg-4.col-md-6.col-6
           img(src='@/assets/curso/temas/tema2/img10.png', alt='')
         .col-lg-8.col-md-12.col-sm-12
-          .bgazulclaro.borde-redondo.p-4
+          .bg01.borde-redondo.p-4
             SlyderF(columnas="col-lg-12 col-md-12 col-12")
               .tarjeta.tarjeta--slyder.p-3
                 .row.justify-content-center.align-items-center(titulo="xxx")
@@ -772,7 +771,7 @@
           img(src='@/assets/curso/temas/tema2/img12.png', alt='')
         .col-lg-8.col-md-12.col-col-sm-12
           p.mb-4 Existen dos métodos de limpieza:
-          .bgrosado.borde-redondo.p-4
+          .bg01.borde-redondo.p-4
             SlyderF(columnas="col-lg-12 col-md-12 col-12")
               .tarjeta.tarjeta--slyder.p-3
                 .row.justify-content-center.align-items-center(titulo="xxx")
@@ -862,7 +861,7 @@
           .tarjeta-avatar
             img.mt-5(src='@/assets/curso/temas/tema2/tar8-1.png' alt='')
             .row.justify-content-center.align-items-center.mt-5.mb-5.mx-1
-              .tarjeta--boton.tema1
+              .tarjeta--boton.bg05.text-white
                 .p-4
                   br
                   br
@@ -885,7 +884,7 @@
           .tarjeta-avatar
             img.mt-5(src='@/assets/curso/temas/tema2/tar8-2.png' alt='')
             .row.justify-content-center.align-items-center.mt-5.mb-5.mx-1
-              .tarjeta--boton.tema1
+              .tarjeta--boton.bg06
                 .p-4
                   br
                   br
@@ -946,7 +945,7 @@
           .tarjeta-avatar-b
             .tarjeta-avatar-b__img
               img(src='@/assets/curso/temas/tema2/tar9-1.png' alt='AvatarTop')
-            .tarjeta.tarjeta--azul
+            .tarjeta.bg01
               .p-3
                 .row.align-items-center.justify-content-center
                   .col-1
@@ -957,7 +956,7 @@
           .tarjeta-avatar-b
             .tarjeta-avatar-b__img
               img(src='@/assets/curso/temas/tema2/tar9-2.png' alt='AvatarTop')
-            .tarjeta.tarjeta--azul
+            .tarjeta.bg01
               .p-3
                 .row.align-items-center.justify-content-center
                   .col-1
@@ -1131,13 +1130,13 @@
         .col-lg-8.col-md-12.col-sm-12    
           p Es una actividad promocional que se constituye en una importante herramienta para mostrar al público las bondades de un nuevo producto, un nuevo sabor, una nueva fórmula o un producto que tuvo cambios y lo mejoraron, entre otros. Hay diferentes opciones para llegar e impactar al cliente potencial con la intención de que pruebe el producto, que en realidad es el objetivo central de la actividad (Universidad América Latina - UAL, 2021). 
           p Obviamente, posterior a la acción de degustar el producto se encuentra la intención de motivar la compra de este, aprovechando el apoyo (visual, publicitario, recursos humanos, materiales de trabajo, abastecimiento, logística, etc.) con lo cual, se cuenta durante toda la actividad. La degustación se debe situar en los lugares donde exista más concentración de clientes, con el objetivo de aumentar el número de impactos logrados por “degustación” al día. Se sugiere un gran número de sitios donde se exhiba la degustación, es decir, tener una mayor cobertura geográfica (área o ciudad que se pretenda impactar).   
-          .cajon.color-primario.p-4.mb-4
+          .cajon.color-acento-contenido.p-4.mb-4
             p Hay quienes mencionan que esta actividad solo es una buena alternativa para comer en el punto de venta y que no representa un buen beneficio para la marca. Pero, para poder ser más prudente con el análisis, se recomienda tener claro cómo están las ventas del producto en el momento antes de la degustación, y cómo reaccionan durante y después de la misma. La medición final va a permitir el establecimiento bastante preciso sobre la eficacia de la actividad en el punto de venta. 
   
       p.mb-4 Las siguientes son tres consideraciones que es vital tenerla en cuenta al implementar un plan de degustación:
   
       .row.mb-4
-        AcordionA.acordion.activo(tipo="b" clase-tarjeta="tarjeta tarjeta--azull")
+        AcordionA.bg07(tipo="b" clase-tarjeta="tarjeta bg07")
           .row.justify-content-center.align-items-center(titulo="Preparación")
             .col-lg-2.col-md-3.col-6
               img(src='@/assets/curso/temas/tema2/aco2-1.png', alt='Texto que describa la imagen')
@@ -1156,7 +1155,7 @@
   
       .row.justify-content-center.align-items-center
         .col-lg-8
-          .cajon.color-acento-botones.p-4.mb-4
+          .cajon.color-acento-contenido.p-4.mb-4
             p Se recomienda también considerar la posibilidad de rotar los #[em stands] o muebles degustadores entre tiendas, situación que va a requerir de una planeación apropiada y pertinente. Los establecimientos de autoservicio son los que más se eligen para realizar este tipo de actividades de promoción porque brindan las mayores ventajas a la marca en términos de ubicación, número de consumidores, facilidades internas, imagen y número de impactos o consumidores que degusten el producto (Universidad América Latina - UAL, 2021).
   
   

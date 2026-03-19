@@ -14,22 +14,22 @@
           .tarjeta-avatar-b
             .tarjeta-avatar-b__img
               img(src='@/assets/curso/temas/tema1/avar1-1.png' alt='AvatarTop')
-            .tarjeta.tarjeta--azul
+            .tarjeta.bg01
               .p-3
                 .row.align-items-center.justify-content-center
                   .col-2
-                    h1.mt-4.textonaranja A.
+                    h1.mt-4.textonaranja a
                   .col-10
                     p.mt-4 Persuadir, influenciar, motivar al cliente a una acción de compra. 
         .col-lg-6.col-md-12.col-sm-12.p-1
           .tarjeta-avatar-b
             .tarjeta-avatar-b__img
               img(src='@/assets/curso/temas/tema1/avar1-2.png' alt='AvatarTop')
-            .tarjeta.tarjeta--azul
+            .tarjeta.bg01
               .p-3
                 .row.align-items-center.justify-content-center
                   .col-2
-                    h1.mt-4.textonaranja B.
+                    h1.mt-4.textonaranja b
                   .col-10
                     p.mt-3 Informar. Esto incluye detalles sobre características, beneficios, precios, promociones y puntos de venta.
       
@@ -47,23 +47,23 @@
   
       .row.justify-content-center(data-aos="fade-down") 
         .col-sm-6.col-xl-5.mb-4.mb-xl-0
-          .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta.tarjeta-slide.arriba.bg02(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
               .tarjeta-slide__contenido.p-4.p-xl-5
                 .row.justify-content-center.align-items-center
                   .col-4
                     img.mb-4(src='@/assets/curso/temas/tema1/ico1.png', alt='tema1')
-                p.text-center.text-white Su función es la transmisión de mensajes persuasivos que cautiven a las personas que se encuentran en el establecimiento. No confundir con diseño de envases y empaques o con #[em merchandising].
+                p.text-center Su función es la transmisión de mensajes persuasivos que cautiven a las personas que se encuentran en el establecimiento. No confundir con diseño de envases y empaques o con #[em merchandising].
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tar1-1.png')})`}")
         .col-sm-6.col-xl-5.mb-4.mb-xl-0
-          .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta.tarjeta-slide.arriba.bg02(@mouseover="indicadorTarjetaSlide = false")
             .tarjeta-slide__contenedor
               .tarjeta-slide__contenido.p-4.p-xl-5
                 .row.justify-content-center.align-items-center
                   .col-4
                     img.mb-4(src='@/assets/curso/temas/tema1/ico1.png', alt='tema1')
-                p.text-center.text-white Se refiere a las estrategias y acciones desarrolladas por el anunciante que mercadea sus productos en el interior del establecimiento, donde exhibe su material (PLV). Por lo tanto, el material que usa el establecimiento para la señalización de los productos no, se puede considerar (PLV). 
+                p.text-center Se refiere a las estrategias y acciones desarrolladas por el anunciante que mercadea sus productos en el interior del establecimiento, donde exhibe su material (PLV). Por lo tanto, el material que usa el establecimiento para la señalización de los productos no, se puede considerar (PLV). 
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tar1-2.png')})`}")
   
       separador
@@ -72,21 +72,21 @@
       p Principalmente, se pueden clasificar en los siguientes tres: 
   
       .tarjeta--container.row(data-aos="fade-right").mb-4
-        .col-md.tarjeta.bgazulclaro.p-5
+        .col-md.tarjeta.bg01.p-5
           .row.justify-content-center.mb-4
             h4.text-center Informar
             .col-6
               figure
                 img(src='@/assets/curso/temas/tema1/tar2-1.png', alt='Texto que describa la imagen')
           p Se refiere a mantener informado al cliente. Sus funciones son la comunicación sobre el lanzamiento de un nuevo producto, servicio o marca, la descripción de sus características, la sugerencia de usos nuevos para el producto, el anuncio sobre un cambio que pueda tener el producto, la creación de la identidad corporativa, el posicionamiento en la mente del consumidor y el apoyo en las promociones de venta.
-        .col-md.tarjeta.bgrosado.p-5
+        .col-md.tarjeta.bg03.p-5
           .row.justify-content-center.mb-4
             h4.text-center Animar
             .col-6
               figure
                 img(src='@/assets/curso/temas/tema1/tar2-2.png', alt='Texto que describa la imagen')
           p Se refiere a persuadir y motivar. Sus funciones son la atracción de clientes nuevos, el incremento de la frecuencia de uso, la preferencia de marca, la persuasión para que el producto sea comprado ahora, la motivación al cliente para que realice un cambio de marca o establecimiento y lograr que la percepción del cliente sea positiva.
-        .col-md.tarjeta.bgazulclaro.bd.p-5
+        .col-md.tarjeta.bg01.bd.p-5
           .row.justify-content-center.mb-4
             h4.text-center Recordar
             .col-6
@@ -99,7 +99,7 @@
           img(src="@/assets/curso/temas/tema1/img2.png")
         .col-lg-8.col-md-12.col-12
           p.mb-4 En el interior del establecimiento coinciden fabricantes, detallistas y consumidores. Obviamente, aquí también están presentes sus intereses. Fabricantes y detallistas concuerdan en tener a la PLV como una herramienta vital para alcanzar a los consumidores, pero son diferentes como se indica a continuación:
-          .bgrosado.borde-redondo.p-4
+          .bg01.borde-redondo.p-4
             SlyderF(columnas="col-lg-12 col-md-12 col-12")
               .tarjeta.tarjeta--slyder.p-3
                 .row.justify-content-center.align-items-center(titulo="xxx")
@@ -384,14 +384,14 @@
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-8.col-md-12.col-sm-12
           p.mb-4 Son una parte vital de las estrategias de comunicación de las empresas. La marca apela al evento cuando tiene algo que notificar. No se trata solo de lanzar un mensaje a los clientes, se trata de la transmisión de los valores de la marca y siendo capaces de envolverlo en un entorno creativo, donde se pueda transmitir experiencias y emociones significativas.
-          .cajon.color-primario.p-4.mb-4
+          .cajon.color-acento-contenido.p-4.mb-4
             p #[b Un evento debe ser capaz de causar el interés por parte de los medios de comunicación (a los cuales se les debe invitar para que estén presentes y luego puedan hacer un #[em Free Press], informando sobre lo ocurrido), así como también debe impactar a los clientes y público presente. Y lo más importante, la idea es lograr la fidelización de los clientes.] 
           p Un buen evento no solo sirve para transferir mensajes a los presentes, sino que, además, puede segmentar para captar la atención de un conjunto determinado de personas, o incluso de transmitir a los presentes una serie de valores, pasando de una simple información a la generación de emociones y sensaciones, lo que es otra forma de transferencia de los objetivos de un evento. 
         .col-lg-4.col-md-6.col-6
           img(src='@/assets/curso/temas/tema1/img5.png', alt='')
   
       .row.mb-4
-        p Los eventos pueden captar la atención del cliente de manera directa y duradera, creando una relación amena y confiable. La experiencia significativa de un evento genera un recuerdo positivo más intenso y perdurable que otros medios de comunicación. Un evento es un acto en directo y único, que reúne al emisor y al receptor en el mismo lugar, dirigido a un público específico, diseñado a medida para crear respuestas y actitudes positivas en los clientes. Es una herramienta de comunicación efectiva para visibilizar la marca y notificar experiencias a través de un acto en vivo.
+        p Los eventos #[b pueden captar la atención del cliente de manera directa y duradera, creando una relación amena y confiable]. La experiencia significativa de un evento genera un recuerdo positivo más intenso y perdurable que otros medios de comunicación. Un evento es un acto en directo y único, que reúne al emisor y al receptor en el mismo lugar, dirigido a un público específico, diseñado a medida para crear respuestas y actitudes positivas en los clientes. #[b Es una herramienta de comunicación efectiva para visibilizar la marca y notificar experiencias a través de un acto en vivo.]
         p Para que el evento promocional sea exitoso, debe cumplir con los objetivos previstos: 
   
   
@@ -442,7 +442,7 @@
           .tarjeta-avatar-b.correr
             .tarjeta-avatar-b__img.nueva
               img(src='@/assets/curso/temas/tema1/1.png' alt='AvatarTop')
-            .tarjeta.tarjeta--azul
+            .tarjeta.bg01
               .p-3
                 p.mt-1 #[b Eventos de proyección externa.] Dirigidos a un público ajeno a la empresa. Se caracterizan por una mayor superficialidad en los mensajes, ya que van dirigidos a un público muy heterogéneo. Su finalidad puede ser muy diversa: institucional, de posicionamiento, de motivación (de agentes externos), promocionales, formación, etc. La siguiente clasificación son tipos de eventos externos:
   
@@ -477,7 +477,7 @@
           .tarjeta-avatar-b.correr
             .tarjeta-avatar-b__img.nueva
               img(src='@/assets/curso/temas/tema1/2.png' alt='AvatarTop')
-            .tarjeta.tarjeta--azul
+            .tarjeta.bg01
               .p-3
                 p.mt-1 #[b Eventos internos.] Hacia dentro de la empresa, dirigido al personal de esta o público vinculado de forma muy estrecha, principalmente eventos de formación, motivación e incentivo. La siguiente clasificación son tipos de eventos internos:
   

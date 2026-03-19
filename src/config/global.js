@@ -170,7 +170,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CF4_632223_DU.pdf',
+        download: 'downloads/CF4_621209_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -355,12 +355,12 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Milady Tatiana Villamil Castellanos',
+          nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Claudia Johana Gómez',
+          nombre: 'Edison Eduardo Mantilla Cuadros',
           cargo: 'Responsable de línea de producción',
           centro: 'Centro Agroturístico - Regional Santander',
         },
@@ -406,8 +406,8 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Lucenith Pinilla Moreno',
-          cargo: 'Desarrolladora <i>full-stack</i> Junior',
+          nombre: 'Leonardo Castellanos Rodriguez',
+          cargo: 'Desarrollador <i>full-stack</i>',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {

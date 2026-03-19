@@ -47,12 +47,40 @@
 .banner-principal__row .banner-principal__img
   width: 350px !important  
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important   
+  color: #12263F !important   
 .banner-interno__titulo__icono i
   color: $color-primario
 figcaption
   font-weight: normal
- 
+
+.bg01 
+  background-color: #E8EBF3
+.bg03
+  background-color: #EDF8FD
+
+.bg02
+  background-color: #BAE4F8
+.bg04
+  background-color: #FDC7A1
+.bg05
+  background-color: #1E3A8A
+.bg06
+  background-color: #FE8938
+.bg07
+  background-color: #ffff
+
+
+
+
+
+
+
+
+
+
+
+
+
 .titulo-sexto.color-secundario 
   border-left-color: #3AE3FE !important
 
@@ -62,7 +90,7 @@ figcaption
   height: 5px
   width: 140px
   border-left: solid 50px
-  border-left-color: #FF725D
+  border-left-color: #53BCED
   background-color: #e8e8e8
 
 .titulo-nuevo
@@ -81,13 +109,13 @@ figcaption
 // subtitulos
 
 .icon 
-  max-width: 35px
-  left: 65px
+  max-width: 65px
+  left: 35px
   position: absolute
 
 .bg-img-blue
   padding: 14px
-  background-color: #0D66BF
+  background-color: #1E3A8A
   border-radius: 0px 0px 50px 0px
 
 // tamaños imagenes
@@ -146,13 +174,13 @@ figcaption
   border-top-right-radius: 20px
 
 .cajon.color-acento-contenido
-  background-color: #ffd4ce
+  background-color: #FFF3EA
 
 .cajon.color-primario
-  background-color: #d4eefb
+  background-color: #E8EBF3
 
 .cajon.color-acento-botones
-  background-color:#F2ECD0
+  background-color: #FFF6CD
 
 .bgazul
   background-color: #0D66BF
@@ -161,7 +189,7 @@ figcaption
   background-color: #d4eefb
 
 .bgrosado  
-  background-color:#ffd4ce
+  background-color: #FFF3EA
 
 .bgblanco
   background-color: white
@@ -173,11 +201,12 @@ figcaption
 
 .fa-chevron-left:before 
     content: url('../assets/curso/temas/tema1/izq.svg')
-
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+  background-color: #38CE65 !important
 // slyder tema 1
 
 .fondo1
-  background: url('../assets/curso/temas/fondo1.jpg')
+  background: url('../assets/curso/temas/fondo1.png')
   background-size: 100% 100%
   background-repeat: no-repeat
   background-position: center 
@@ -186,7 +215,7 @@ figcaption
     margin-inline: -1.4rem
 
 .fondo2
-  background: url('../assets/curso/temas/fondo1.jpg')
+  background: url('../assets/curso/temas/tema2/fondo02.png')
   background-size: 100% 100%
   background-repeat: no-repeat
   background-position: center 
@@ -260,13 +289,13 @@ figcaption
     color: #0D66BF
 
 .acordion__accion__btn--a
-  background-color: #FFDC39
-  box-shadow: 0px 0px 7px 2px rgba(0,0,0,.3)
+  background-color: #38CE65
+ 
 .acordion .tarjeta--azul
-  background-color: #FF725D
+  background-color: #FE8938
 
 .acordion .tarjeta.tarjeta--azul.acordion__activo
-  background-color: #FFE3DE
+  background-color: #FFF3EA
 
 //viñetas
   
@@ -290,11 +319,11 @@ figcaption
 
 
 .lista-ol--cuadro__vineta 
-  background-color: #53BCED !important
+  background-color: #FE8938 !important
   color: black !important
 
 .lista-ol--cuadro__vineta.acento-contenido 
-  background-color: #FF725D !important
+  background-color: #FE8938 !important
 
 .lista-ul--color.color-secundario li > i:first-of-type 
     color: #0D66BF
@@ -302,11 +331,11 @@ figcaption
 // tarjetas botones tema 1
 
 .tarjeta--boton.tema1
-  background-color: #d4eefb
+  background-color: #E8EBF3
   border-radius: 10px
 
 .tarjeta--boton.tema1:active, .tarjeta--boton.tema1:focus, .tarjeta--boton.tema1:hover 
-  background-color: #ffd4ce
+  background-color: #FFF3EA
 
 .tarjeta-avatar
     padding-top: 35px
@@ -356,18 +385,28 @@ figcaption
     right: -2px
     background-color: #53bced
 
-// tab A tema 2
 
-.tabs-a__tab
-  background-color: #FF725D
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+    background-color: #38CE65 !important
+    color: #12263F
+
+.tabs-a.color-acento-botones .tabs-a__tab__selected:before 
+    background-color: #38CE65 !important
+
+.tabs-a__tab:last-child 
+    margin-bottom: 0 !important
+    background-color: #FE8938 !important
+
+.linea-tiempo-c__header__item__line-container:after, .linea-tiempo-c__header__item__line-container:before 
+  background-color: #1E3A8A
 
 // linea de tiempo tema 2
 
 .tarjeta--rosada
-    background-color:  #ffd4ce
+    background-color:  #EDF8FD
 
 .linea-tiempo-c__header__btn--right, .linea-tiempo-c__header__btn--left
-    background-color:  #FFD947
+    background-color:  #38CE65
 
 // puntos calientes 
 
@@ -378,24 +417,19 @@ figcaption
 
 // acordion tema 2
 
-.acordion.activo 
-.acordion__activo .acordion__accion__btn--b
-    background-color: #FFE3DE
+ 
 
 .acordion__accion__btn--b 
     border: 1px solid #afafaf
 
-.acordion 
-    .acordion__activo
-      background: url('../assets/curso/temas/tema2/fondo2.png')
-      background-size: 100% 100%
-      background-repeat: no-repeat
-      background-position: center 
-      border-radius: 20px !important
-    .tarjeta--azull
-      background-color: #FFE3DE
-      border-bottom: 0.5px solid #D3D3D3 !important
-      border-radius: 0px
+
+.acordion .tarjeta.bg07.acordion__activo
+  background: url('../assets/curso/temas/tema2/fondo.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center 
+
+
 
 ///////// Card hover tema2
 
@@ -415,19 +449,19 @@ figcaption
 .crd_hover_txt:hover .crd_hover_txt--body
   transition: all .5s ease-in-out
   transform: translateY(0)
-  background-color: #0D66BF !important
+  background-color: #BAE4F8 !important
 .crd_hover_txt:hover .crd_hover_txt--body *
-  color: #fff !important
+  color: #12263F !important
 
 .cambio
-  background-color: #FF725D
+  background-color: #FE8938
 
 //linea de tiempo D tema 3
 
 .linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title 
-    background-color: #FFE3DE
+    background-color: #EAFAEF
 .linea-tiempo-d__item__content__slot 
-    background-color: #FFE3DE
+    background-color: #EAFAEF
 
 .linea-tiempo-d.color-secundario .linea-tiempo-d__item__content 
     background-color:  #d4eefb

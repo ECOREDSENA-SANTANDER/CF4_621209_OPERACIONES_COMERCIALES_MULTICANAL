@@ -66,7 +66,7 @@
           img(src='@/assets/curso/temas/tema3/img2.png', alt='')
         .col-lg-8.col-md-12.col-sm-12
           p.mb-2 Un plan de comunicación usado para cualquier nivel debe pasar por las siguientes etapas:
-          .row.justify-content-center.align-items-center.bgazulclaro.borde-redondo
+          .row.justify-content-center.align-items-center.bg01.borde-redondo
             .col-lg-12.col-md-12.col-sm-12
               .row.justify-content-center.align-items-center.mt-4
                 .col-lg-1.col-md-2.col-4
@@ -151,7 +151,7 @@
   
       .row
         .col-sm-12.col-md-12.col-lg-12
-          .tarjeta.tarjeta--rosada.p-4
+          .tarjeta.bgrosado.p-4
             LineaTiempoC.color-acento-contenido(text-small)
               .row.justify-content-center.align-items-center(titulo="A")
                 .col-md-3.col-lg-3.col-6
@@ -259,7 +259,7 @@
   
       .row.justify-content-center.align-items-center
         .col-lg-8.col-md-12.col-sm-12
-          .cajon.color-primario.p-4.mb-4
+          .cajon.color-acento-contenido.p-4.mb-4
             p.p-3 Por eso, la estrategia de #[em marketing] que se relaciona con el envío de las muestras gratis debe estar bien pensada porque no se trata de enviar cualquier objeto. Se trata de cuidar muy bien la imagen de la marca eligiendo muy bien el artículo de regalo para generar un impacto significativo en el cliente.  
   
       .row.justify-content-center.align-items-center
@@ -385,7 +385,7 @@
   
       .row.justify-content-center.align-items-center
           .col-lg-12.col-md-12.col-sm-12
-            ImagenInfograficaB.color-secundario
+            ImagenInfograficaB.color-acento-botones
               template(v-slot:imagen)
                 figure
                   img(src='@/assets/curso/temas/tema3/pc1.png', alt='Texto que describa la imagen')
@@ -671,7 +671,7 @@
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-8.col-md-12.col-sm-12
           p La ejecución de una estrategia omnicanal está íntimamente ligada a la estrategia de experiencia del cliente; no se puede tener una buena estrategia omnicanal si no se incluye la visión del cliente y la coherencia de la marca en su planeación. Es vital tener en cuenta la apropiada y sólida combinación de los diferentes canales de interacción como uno de los puntos más importantes de la vinculación del cliente con la marca.
-          .cajon.color-primario.p-4.mb-4
+          .cajon.color-acento-contenido.p-4.mb-4
             p De esta forma, muchas organizaciones se encuentran actualmente sumergidas en la evaluación, rediseño e innovación de sus modelos de relacionamiento con el cliente, buscando mejorar la eficiencia operativa y maximizar la experiencia del cliente gracias al valor entregado en cada uno de los puntos de contacto. 
         .col-lg-4.col-md-6.col-6
           img(src='@/assets/curso/temas/tema3/img10.png', alt='')
